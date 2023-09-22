@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            background-color:cornsilk;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            border-radius: 15%;
+            box-shadow: 0 4px 8px 0 rgba(34, 33, 33, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-color: white;
+            width: 30%;
+            padding: 20px;
+        }
+
+        .person {
+            display: flex;
+            flex-direction: row; 
+            margin-bottom: 15px;
+        }
+
+        .person img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 30px;
+        }
+        hr{
+            width: 100%;
+            border:0.1px solid rgb(241, 241, 241);
+            
+        }
+        #t{
+            color: lightslategray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="person">
+            <img src="pic.png" alt="Person 1">
+            <div>
+                <p><b> User #1</b></p>
+                <p id="t">Amman, Jordan</p>
+            </div>
+        </div>
+        <hr>
+        <div class="person">
+            <img src="pic.png" alt="Person 2">
+            <div>
+                <p><b>User #2 </b></p>
+                <p id="t">Salt, Jordan</p>
+            </div>
+        </div>
+        <hr>
+        <div class="person">
+            <img src="pic.png" alt="Person 3">
+            <div>
+                <p><b>User #3</b> </p>
+                <p id="t">Zarqa, Jordan  </p>
+            </div>
+        </div>
+        <hr>
+        <div class="person">
+            <img src="pic.png" alt="Person 4">
+            <div>
+                <p><b>User #4</b> </p>
+                <p id="t">Irbid, Jordan  </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-items: stretch; 
+    width: 95%; 
+    height: 650px; 
+    border: 1px solid #c3c3c3;
+    background-color: orange;
+    padding: 10px;
+  }
+    
+  .item {
+    width: 50px; 
+    height: auto; 
+    flex: 1 1 80px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+  }
